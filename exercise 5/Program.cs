@@ -8,13 +8,8 @@ namespace exercise_5
 {
     class Node
     {
-        class Node
-        {
-            public string nama;
-            public Node next;
-        }
-        static void Main(string[] args)
-        {
-        }
+       public string nama;
+       public Node next;
+
     }
 }
