@@ -51,5 +51,16 @@ namespace exercise_5
             if (alwan == null)
                 ilham = null;
         }
+
+        public void display()
+        {
+            if (alwan == null)
+            {
+                Console.WriteLine("kososng");
+                return ;
+            }
+            Node display;
+        }
+
     }
 }
