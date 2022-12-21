@@ -77,7 +77,18 @@ namespace exercise_5
                     Console.Write("\nEnter your choice (1-4): ");
                     ch = Convert.ToChar(Console.ReadLine());
                     Console.WriteLine();
-                    
+                    switch (ch)
+                    {
+                        case '1':
+                            {
+                                Console.Write("Enter a number: ");
+                                char nm = Convert.ToChar(System.Console.ReadLine());
+                                Console.WriteLine();
+                                q.insert(nm);
+                            }
+                            break;
+
+                    }
                 }
                 catch (Exception e)
                 {
