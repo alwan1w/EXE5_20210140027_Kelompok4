@@ -38,5 +38,18 @@ namespace exercise_5
             ilham.next = nodeBaru;
             ilham = nodeBaru;
         }
+        
+        public void delete()
+        {
+            if (alwan == null)
+            {
+                Console.WriteLine("Kosong!!!");
+                return;
+            }
+            alwan = alwan.next;
+
+            if (alwan == null)
+                ilham = null;
+        }
     }
 }
