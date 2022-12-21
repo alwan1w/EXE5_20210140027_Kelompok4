@@ -97,7 +97,13 @@ namespace exercise_5
                                 q.display();
                             }
                             break;
-             
+                        case '4':
+                            return;
+                        default:
+                            {
+                                Console.WriteLine("Invalid option!!");
+                            }
+                            break;
                     }
                 }
                 catch (Exception e)
