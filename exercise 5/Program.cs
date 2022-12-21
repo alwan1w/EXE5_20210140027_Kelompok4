@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace exercise_5
 {
-    class Program
+    class Node
     {
-
+        class Node
+        {
+            public string nama;
+            public Node next;
+        }
+        static void Main(string[] args)
+        {
+        }
     }
 }
