@@ -12,4 +12,13 @@ namespace exercise_5
        public Node next;
 
     }
+    class Queue
+    {
+        Node alwan, ilham;
+        public Queue()
+        {
+            alwan = null;
+            ilham = null;
+        }
+    }
 }
