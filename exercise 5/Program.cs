@@ -87,7 +87,12 @@ namespace exercise_5
                                 q.insert(nm);
                             }
                             break;
-
+                        case '2':
+                            {
+                                q.delete();
+                            }
+                            break;
+            
                     }
                 }
                 catch (Exception e)
